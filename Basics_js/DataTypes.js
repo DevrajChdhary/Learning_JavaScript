@@ -34,3 +34,4 @@ const myFunction = function(){
     console.log("Hello Dev");
 }
 console.log(typeof anotherId);
+
