@@ -19,7 +19,9 @@ function loginUserMessage(username = "sam"){
 }
 const user1=loginUserMessage("Devraj");
 console.log(user);
-function calculateCartPrice(val1, val2, ...num1){
+
+
+function calculateCartPrice(...num1){//used in shopping Cart values
     return num1
 }
 
