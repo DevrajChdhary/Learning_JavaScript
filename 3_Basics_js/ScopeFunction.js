@@ -13,7 +13,7 @@ if (true) {
 // console.log(b);
 // console.log(c);
 
-console.log(addone(5))
+// console.log(addone(5))
 
 function addone(num){
     return num + 1
@@ -21,7 +21,12 @@ function addone(num){
 
 
 
-addTwo(5)// error because call before initialization
-const addTwo = function(num){
-    return num + 2
+// addTwo(5)// error because call before initialization
+// const addTwo = function(num){
+//     return num + 2
+// }
+
+const addTwo=(num1,num2)=>{
+    return num1+num2;
 }
+console.log(addTwo(3,5));
